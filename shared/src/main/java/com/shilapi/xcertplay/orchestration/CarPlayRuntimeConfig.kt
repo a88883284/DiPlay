@@ -53,7 +53,7 @@ class CarPlayRuntimeConfig(
     val hostMac: ByteArray = DEFAULT_HOST_MAC,
     val linkLocal: String = "fe80::2",
     val identification: Iap2IdentificationConfig,
-    val availableCurrentMilliAmps: Int = 2400,
+    val availableCurrentMilliAmps: Int = 1500,
     val label: String = "xcertplay",
     val hostName: String = "xcertplay",
     val transport: CarPlayTransport = CarPlayTransport.WIRED,
